@@ -34,7 +34,9 @@ public class Funcionario
 
         Console.Write("Nome: ");
         string nome = Console.ReadLine();
-
+        
+        Console.Clear();
+        Console.WriteLine("1 - Gerente ; 2 - Atendente ; 3 - Estoquista");
         Console.Write("ID do Cargo: ");
         int idCargo = int.Parse(Console.ReadLine());
 
