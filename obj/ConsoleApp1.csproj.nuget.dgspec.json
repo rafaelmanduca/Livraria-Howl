@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\rafae\\Programação\\Livraria-Howl\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\rafae\\Programação\\Livraria-Howl\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\Programação\\Livraria-Howl\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\kelvin.silva4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\rafae\\Programação\\Livraria-Howl\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\Programação\\Livraria-Howl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kelvin.silva4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

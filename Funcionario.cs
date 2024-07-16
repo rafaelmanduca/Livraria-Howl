@@ -32,26 +32,150 @@ public class Funcionario
         Console.Clear();
         Console.WriteLine("Adicionar Funcionário");
 
-        Console.Write("Nome: ");
-        string nome = Console.ReadLine();
-        
-        Console.Clear();
-        Console.WriteLine("1 - Gerente ; 2 - Atendente ; 3 - Estoquista");
-        Console.Write("ID do Cargo: ");
-        int idCargo = int.Parse(Console.ReadLine());
+        string nome = string.Empty;
+        bool nomeValido = false;
 
-        Console.Write("Data de Admissão (yyyy-mm-dd): ");
-        DateTime dataAdmissao = DateTime.Parse(Console.ReadLine());
+        while (!nomeValido)
+        {
+            try
+            {
+                Console.Write("Nome: ");
+                nome = Console.ReadLine().Trim();
 
-        Console.Write("Salário: ");
-        decimal salario = decimal.Parse(Console.ReadLine());
+                if (string.IsNullOrEmpty(nome))
+                {
+                    throw new Exception("Nome não pode estar vazio.");
+                }
+                else if (ContemNumeros(nome))
+                {
+                    throw new Exception("Nome não pode conter números.");
+                }
+                else
+                {
+                    nomeValido = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message} Digite novamente.");
+            }
+        }
 
-        Console.Write("Carteira de Trabalho: ");
-        string carteiraDeTrabalho = Console.ReadLine();
+        int idCargo = 0;
+        bool idCargoValido = false;
+        while (!idCargoValido)
+        {
+            try
+            {
+                Console.Write("ID do Cargo: ");
+                idCargo = int.Parse(Console.ReadLine());
+                idCargoValido = true;
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("ID do Cargo inválido. Digite novamente.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message} Digite novamente.");
+            }
+        }
 
-        new Funcionario(nome, idCargo, dataAdmissao, salario, carteiraDeTrabalho);
+        DateTime dataAdmissao = DateTime.MinValue;
+        bool dataValida = false;
+        while (!dataValida)
+        {
+            try
+            {
+                Console.Write("Data de Admissão (DDMMYYYY): ");
+                string input = Console.ReadLine().Trim();
+
+                if (input.Length != 8 || !input.All(char.IsDigit))
+                {
+                    throw new Exception("Formato de data inválido. Use apenas números (DDMMYYYY).");
+                }
+
+                int dia = int.Parse(input.Substring(0, 2));
+                int mes = int.Parse(input.Substring(2, 2));
+                int ano = int.Parse(input.Substring(4, 4));
+
+                dataAdmissao = new DateTime(ano, mes, dia);
+                dataValida = true;
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Formato de data inválido. Digite novamente (DDMMYYYY).");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message} Digite novamente.");
+            }
+        }
+
+        decimal salario = 0;
+        bool salarioValido = false;
+        while (!salarioValido)
+        {
+            try
+            {
+                Console.Write("Salário: ");
+                salario = decimal.Parse(Console.ReadLine());
+                salarioValido = true;
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Salário inválido. Digite novamente.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message} Digite novamente.");
+            }
+        }
+
+        string carteiraDeTrabalho = string.Empty;
+        bool carteiraDeTrabalhoValida = false;
+        while (!carteiraDeTrabalhoValida)
+        {
+            try
+            {
+                Console.Write("Carteira de Trabalho (apenas números): ");
+                carteiraDeTrabalho = Console.ReadLine().Trim();
+
+                if (string.IsNullOrEmpty(carteiraDeTrabalho))
+                {
+                    throw new Exception("Carteira de Trabalho não pode estar vazia.");
+                }
+
+                if (!carteiraDeTrabalho.All(char.IsDigit))
+                {
+                    throw new Exception("Carteira de Trabalho deve conter apenas números.");
+                }
+
+                carteiraDeTrabalhoValida = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message} Digite novamente.");
+            }
+        }
+
         Console.WriteLine($"Funcionário '{nome}' adicionado com sucesso!");
+        
     }
+
+    private static bool ContemNumeros(string texto)
+    {
+        foreach (char c in texto)
+        {
+            if (char.IsDigit(c))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 
     public static void ListarFuncionarios()
     {
@@ -67,6 +191,8 @@ public class Funcionario
             }
         }
     }
+
+
 
     public static void SubmenuFuncionarios()
     {
