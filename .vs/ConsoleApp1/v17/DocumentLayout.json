@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,77 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cargo.cs",
-              "DocumentMoniker": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Cargo.cs",
-              "RelativeDocumentMoniker": "Cargo.cs",
-              "ToolTip": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Cargo.cs",
-              "RelativeToolTip": "Cargo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T17:22:02.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "venda.cs",
-              "DocumentMoniker": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\venda.cs",
-              "RelativeDocumentMoniker": "venda.cs",
-              "ToolTip": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\venda.cs",
-              "RelativeToolTip": "venda.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T17:21:32.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Funcionario.cs",
               "RelativeDocumentMoniker": "Funcionario.cs",
               "ToolTip": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Funcionario.cs",
               "RelativeToolTip": "Funcionario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswHAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T17:21:21.348Z"
+              "WhenOpened": "2024-07-16T17:21:21.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Livro.cs",
-              "RelativeDocumentMoniker": "Livro.cs",
-              "ToolTip": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Livro.cs",
-              "RelativeToolTip": "Livro.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T17:20:29.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Cliente.cs",
-              "RelativeDocumentMoniker": "Cliente.cs",
-              "ToolTip": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Cliente.cs",
-              "RelativeToolTip": "Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T17:20:15.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAcwEQAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwCYAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T17:15:57.376Z",
               "EditorCaption": ""

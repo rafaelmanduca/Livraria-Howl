@@ -36,7 +36,7 @@
                             //Função Clientes
                             break;
                         case 3:
-                            //Função Funcionarios
+                            Funcionario.SubmenuFuncionarios();
                             break;
                         case 4:
                             //Função vendas
