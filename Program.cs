@@ -2,16 +2,24 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void ExibirCabecalho()
+        {
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("------ Livraria Howl -----");
+            Console.WriteLine("--------------------------");
+        }
+    
+    static void Main(string[] args)
         {
             
             
-            Console.WriteLine("Bem vindo a livraria Howl!");
+            
             int opcao = 0;
 
             while (opcao != 4)
             {
                 Console.Clear();
+                ExibirCabecalho();
                 Console.WriteLine("Bem vindo a livraria Howl!");
                 Console.WriteLine("Menu Principal");
                 Console.WriteLine("1. Livros");
@@ -39,7 +47,7 @@
                             Funcionario.SubmenuFuncionarios();
                             break;
                         case 4:
-                            //Função vendas
+                            Venda.SubmenuVendas();
                             break;
                         case 5:
                             Console.WriteLine("Saindo...");
