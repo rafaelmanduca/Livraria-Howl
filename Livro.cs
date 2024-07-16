@@ -8,6 +8,7 @@ namespace ConsoleApp1
 {
     internal class Livro
     {
+
         public int IdLivro { get; set; }
         public string Titulo { get; set; }
         public string Editora { get; set; }
@@ -119,7 +120,5 @@ namespace ConsoleApp1
         {
             return $"ID: {IdLivro}, Título: {Titulo}, Autor: {Autor}, Editora: {Editora}, Preço: {Preco}";
         }
-
-
     }
 }
