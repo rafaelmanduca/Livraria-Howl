@@ -46,7 +46,7 @@ public class Funcionario
                 {
                     throw new Exception("Nome não pode estar vazio.");
                 }
-                else if (ContemNumeros(nome))
+                else if (nome.Any(char.IsDigit))
                 {
                     throw new Exception("Nome não pode conter números.");
                 }
@@ -160,20 +160,8 @@ public class Funcionario
         }
 
         Console.WriteLine($"Funcionário '{nome}' adicionado com sucesso!");
-        
     }
 
-    private static bool ContemNumeros(string texto)
-    {
-        foreach (char c in texto)
-        {
-            if (char.IsDigit(c))
-            {
-                return true;
-            }
-        }
-        return false;
-    }
 
 
 

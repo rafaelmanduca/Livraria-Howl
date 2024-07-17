@@ -22,3 +22,9 @@ C:\Users\rafae\Programação\Livraria-Howl\obj\Debug\net8.0\ConsoleApp1.dll
 C:\Users\rafae\Programação\Livraria-Howl\obj\Debug\net8.0\refint\ConsoleApp1.dll
 C:\Users\rafae\Programação\Livraria-Howl\obj\Debug\net8.0\ConsoleApp1.pdb
 C:\Users\rafae\Programação\Livraria-Howl\bin\Debug\net8.0\ConsoleApp1.exe
+C:\Users\rafae\Programação\Livraria-Howl\bin\Debug\net8.0\ConsoleApp1.deps.json
+C:\Users\rafae\Programação\Livraria-Howl\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+C:\Users\rafae\Programação\Livraria-Howl\bin\Debug\net8.0\ConsoleApp1.dll
+C:\Users\rafae\Programação\Livraria-Howl\bin\Debug\net8.0\ConsoleApp1.pdb
+C:\Users\rafae\Programação\Livraria-Howl\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\rafae\Programação\Livraria-Howl\obj\Debug\net8.0\ref\ConsoleApp1.dll
