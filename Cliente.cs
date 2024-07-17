@@ -36,101 +36,137 @@ namespace ConsoleApp1
                 Console.WriteLine($"cpf: {CPF}");
             }
 
-        public class ProgramaClientes
-        {
-            public static List<Cliente> clientes = new List<Cliente>();
+     public class ProgramaClientes
+     {
+        public static List<Cliente> clientes = new List<Cliente>();
 
-            public static void CadastrarCliente()
+        public static void CadastrarCliente()
+        {
+            try
             {
                 Console.Clear();
                 Console.WriteLine("Adicionar Cliente");
 
                 Console.Write("Id: ");
-                int id = int.Parse(Console.ReadLine());
+                if (!int.TryParse(Console.ReadLine(), out int id))
+                {
+                    throw new FormatException("Id deve ser um número inteiro.");
+                }
 
                 Console.Write("Nome: ");
                 string nome = Console.ReadLine();
+                if (string.IsNullOrEmpty(nome))
+                {
+                    throw new ArgumentException("Nome não pode ser vazio.");
+                }
 
                 Console.Write("Email: ");
                 string email = Console.ReadLine();
+                if (string.IsNullOrEmpty(email))
+                {
+                    throw new ArgumentException("Email não pode ser vazio.");
+                }
 
                 Console.Write("Telefone: ");
-                int telefone = int.Parse(Console.ReadLine());
+                if (!int.TryParse(Console.ReadLine(), out int telefone))
+                {
+                    throw new FormatException("Telefone deve ser um número inteiro.");
+                }
 
                 Console.Write("Endereço: ");
                 string endereço = Console.ReadLine();
+                if (string.IsNullOrEmpty(endereço))
+                {
+                    throw new ArgumentException("Endereço não pode ser vazio.");
+                }
 
                 Console.Write("CPF: ");
                 string cpf = Console.ReadLine();
+                if (string.IsNullOrEmpty(cpf))
+                {
+                    throw new ArgumentException("CPF não pode ser vazio.");
+                }
 
                 Cliente novoCliente = new Cliente(id, nome, email, telefone, endereço, cpf);
                 clientes.Add(novoCliente);
                 Console.WriteLine($"O cliente '{nome}' foi cadastrado com sucesso!");
             }
-
-            public static void ListarClientes()
+            catch (FormatException ex)
             {
-                if (clientes.Count == 0)
+                Console.WriteLine($"Erro de formatação: {ex.Message}");
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Erro de argumento: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro inesperado: {ex.Message}");
+            }
+        }
+
+        public static void ListarClientes()
+        {
+            if (clientes.Count == 0)
+            {
+                Console.WriteLine("Nenhum cliente cadastrado ainda.");
+            }
+            else
+            {
+                foreach (var cliente in clientes)
                 {
-                    Console.WriteLine("Nenhum cliente cadastrado ainda.");
-                }
-                else
-                {
-                    foreach (var cliente in clientes)
-                    {
-                        cliente.ExibirCliente();
-                        Console.WriteLine("-------------------------");
-                    }
+                    cliente.ExibirCliente();
+                    Console.WriteLine("-------------------------");
                 }
             }
+        }
 
-            public static void SubmenuClientes()
+        public static void SubmenuClientes()
+        {
+            int opcaoSubmenu = 0;
+
+            while (opcaoSubmenu != 3)
             {
-                int opcaoSubmenu = 0;
+                Console.Clear();
+                Console.WriteLine("Submenu Clientes");
+                Console.WriteLine("1. Adicionar Cliente");
+                Console.WriteLine("2. Listar Clientes");
+                Console.WriteLine("3. Voltar ao Menu Principal");
+                Console.Write("Escolha uma opção: ");
 
-                while (opcaoSubmenu != 3)
+                if (int.TryParse(Console.ReadLine(), out opcaoSubmenu))
                 {
-                    Console.Clear();
-                    Console.WriteLine("Submenu Clientes");
-                    Console.WriteLine("1. Adicionar Cliente");
-                    Console.WriteLine("2. Listar Clientes");
-                    Console.WriteLine("3. Voltar ao Menu Principal");
-                    Console.Write("Escolha uma opção: ");
-
-                    if (int.TryParse(Console.ReadLine(), out opcaoSubmenu))
+                    if (opcaoSubmenu == 1)
                     {
-                        if (opcaoSubmenu == 1)
-                        {
-                            CadastrarCliente();
-                        }
-                        else if (opcaoSubmenu == 2)
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Listagem de Clientes");
-                            ListarClientes();
-                        }
-                        else if (opcaoSubmenu == 3)
-                        {
-                            Console.WriteLine("Voltando ao menu principal...");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Opção inválida. Tente novamente.");
-                        }
+                        CadastrarCliente();
+                    }
+                    else if (opcaoSubmenu == 2)
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Listagem de Clientes");
+                        ListarClientes();
+                    }
+                    else if (opcaoSubmenu == 3)
+                    {
+                        Console.WriteLine("Voltando ao menu principal...");
                     }
                     else
                     {
-                        Console.WriteLine("Entrada inválida. Tente novamente.");
+                        Console.WriteLine("Opção inválida. Tente novamente.");
                     }
-
-                    Console.WriteLine("Pressione qualquer tecla para continuar...");
-                    Console.ReadKey();
                 }
+                else
+                {
+                    Console.WriteLine("Entrada inválida. Tente novamente.");
+                }
+
+                Console.WriteLine("Pressione qualquer tecla para continuar...");
+                Console.ReadKey();
             }
-
-    
         }
+     }
 
-    }     
+
+}     
     
 }
