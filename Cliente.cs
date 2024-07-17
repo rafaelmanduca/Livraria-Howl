@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+
      public class Cliente
      {
             public int Id { get; set; }
@@ -169,4 +170,6 @@ namespace ConsoleApp1
 
 }     
     
-}
+
+
+
