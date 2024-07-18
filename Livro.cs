@@ -51,8 +51,12 @@ namespace ConsoleApp1
             Console.Clear();
             Console.WriteLine("Adicionar Livro");
 
-            Console.Write("Título: ");
-            string titulo = Console.ReadLine();
+            string titulo = LerEntrada("Título: ");
+            string autor = LerEntrada("Autor(a): ");
+            string editora = LerEntrada("Editora: ");
+
+            int preco = LerInteiroPositivo("Preço: ");
+            int quantidade = LerInteiroPositivo("Quantidade: ");
 
             Livro livroExistente = livros
                 .FirstOrDefault(l => l.Titulo.Equals(titulo, StringComparison.OrdinalIgnoreCase));
@@ -61,50 +65,19 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Já tem um livro cadastrado com esse nome!");
 
-                Console.WriteLine("Digite quantos livros você quer adicionar:");
-                int quantidadeParaAdicionar;
-
-                while (!int.TryParse(Console.ReadLine(), out quantidadeParaAdicionar) || quantidadeParaAdicionar <= 0)
-                {
-                    Console.WriteLine("Por favor, digite um número válido maior que 0.");
-                }
-
+                int quantidadeParaAdicionar = LerInteiroPositivo("Digite quantos livros você quer adicionar: ");
                 AtualizarQuantidadeLivro(livroExistente, quantidadeParaAdicionar);
 
                 Console.WriteLine($"A quantidade do livro '{livroExistente.Titulo}' foi atualizada para {livroExistente.Quantidade}.");
             }
             else
             {
-                Console.WriteLine("Esse livro não está cadastrado. Vamos adicioná-lo!");
-
-                Console.Write("Autor(a): ");
-                string autor = Console.ReadLine();
-
-                Console.Write("Editora: ");
-                string editora = Console.ReadLine();
-
-                Console.Write("Preço: ");
-                int preco;
-
-                while (!int.TryParse(Console.ReadLine(), out preco) || preco <= 0)
-                {
-                    Console.WriteLine("Por favor, digite um valor válido para o preço maior que 0.");
-                }
-
-                Console.Write("Quantidade: ");
-                int quantidade;
-
-                while (!int.TryParse(Console.ReadLine(), out quantidade) || quantidade <= 0)
-                {
-                    Console.WriteLine("Por favor, digite um número válido para a quantidade maior que 0.");
-                }
-
                 livros.Add(new Livro(titulo, autor, editora, preco, quantidade));
-
                 Console.WriteLine($"O livro '{titulo}' foi adicionado com sucesso!");
             }
         }
-         
+
+
         public static void ListarLivros()
         {
             if (livros.Count == 0)
@@ -174,7 +147,34 @@ namespace ConsoleApp1
             }
         }
 
-      
+        private static string LerEntrada(string mensagem)
+        {
+            string entrada;
+            do
+            {
+                Console.Write(mensagem);
+                entrada = Console.ReadLine()?.Trim();
+                if (string.IsNullOrWhiteSpace(entrada))
+                {
+                    Console.WriteLine("O campo não pode ser vazio ou conter apenas espaços em branco. Tente novamente.");
+                }
+            } while (string.IsNullOrWhiteSpace(entrada));
+            return entrada;
+        }
+
+        private static int LerInteiroPositivo(string mensagem)
+        {
+            int valor;
+            do
+            {
+                Console.Write(mensagem);
+                if (!int.TryParse(Console.ReadLine(), out valor) || valor <= 0)
+                {
+                    Console.WriteLine("Por favor, digite um número válido maior que 0.");
+                }
+            } while (valor <= 0);
+            return valor;
+        }
 
 
         public override string ToString()
