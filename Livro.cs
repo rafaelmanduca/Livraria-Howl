@@ -45,7 +45,7 @@ namespace ConsoleApp1
             Console.WriteLine($"Quantidade: {Quantidade}");
         }
 
-        try
+       
         public static void CadastrarLivro()
         {
             Console.Clear();
@@ -104,8 +104,7 @@ namespace ConsoleApp1
                 Console.WriteLine($"O livro '{titulo}' foi adicionado com sucesso!");
             }
         }
-        catch(ArgumentException ex);
-        
+         
         public static void ListarLivros()
         {
             if (livros.Count == 0)
@@ -175,12 +174,12 @@ namespace ConsoleApp1
             }
         }
 
+      
 
-                
 
         public override string ToString()
         {
             return $"ID: {IdLivro}, Título: {Titulo}, Autor: {Autor}, Editora: {Editora}, Preço: {Preco}, Quantidade: {Quantidade}";
         }
     }
-}
+}  

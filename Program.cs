@@ -11,9 +11,11 @@
     
     static void Main(string[] args)
         {
-            
-            
-            
+            new Livro("O Senhor dos Anéis", "J.R.R. Tolkien", "HarperCollins", 120, 10);
+            new Livro("1984", "George Orwell", "Companhia das Letras", 45, 15);
+            new Livro("O Hobbit", "J.R.R. Tolkien", "HarperCollins", 70, 5);
+
+
             int opcao = 0;
 
             while (opcao != 4)
