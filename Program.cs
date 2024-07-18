@@ -38,7 +38,7 @@
                     switch (opcao)
                     {
                         case 1:
-                            //Função Livros
+                            Livro.SubmenuLivros();
                             break;
                         case 2:
                             //Função Clientes

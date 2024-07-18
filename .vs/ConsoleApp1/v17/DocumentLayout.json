@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\marcos.oberge\\Livraria-Howl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\marcos.oberge\\livraria-howl\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\kelvin.silva4\\documents\\consoleapp1\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\marcos.oberge\\livraria-howl\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\marcos.oberge\\livraria-howl\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\marcos.oberge\\livraria-howl\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\marcos.oberge\\livraria-howl\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\marcos.oberge\\livraria-howl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cargo.cs",
+              "DocumentMoniker": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Cargo.cs",
+              "RelativeDocumentMoniker": "Cargo.cs",
+              "ToolTip": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Cargo.cs",
+              "RelativeToolTip": "Cargo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:49:17.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Funcionario.cs",
+              "ToolTip": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Funcionario.cs",
+              "RelativeToolTip": "Funcionario.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:49:07.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Cliente.cs",
+              "RelativeDocumentMoniker": "Cliente.cs",
+              "ToolTip": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Cliente.cs",
+              "RelativeToolTip": "Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:52:01.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Livro.cs",
+              "RelativeDocumentMoniker": "Livro.cs",
+              "ToolTip": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Livro.cs",
+              "RelativeToolTip": "Livro.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAkwG0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:51:38.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\marcos.oberge\\Livraria-Howl\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBUAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T19:25:46.234Z",
               "EditorCaption": ""
@@ -36,12 +104,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Venda.cs",
-              "DocumentMoniker": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Venda.cs",
-              "RelativeDocumentMoniker": "Venda.cs",
-              "ToolTip": "C:\\Users\\kelvin.silva4\\Documents\\ConsoleApp1\\Venda.cs",
-              "RelativeToolTip": "Venda.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAMwG0AAAAAAAAA",
+              "Title": "venda.cs",
+              "DocumentMoniker": "C:\\Users\\marcos.oberge\\Livraria-Howl\\venda.cs",
+              "RelativeDocumentMoniker": "venda.cs",
+              "ToolTip": "C:\\Users\\marcos.oberge\\Livraria-Howl\\venda.cs",
+              "RelativeToolTip": "venda.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAhwCEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T19:11:51.437Z",
               "EditorCaption": ""
