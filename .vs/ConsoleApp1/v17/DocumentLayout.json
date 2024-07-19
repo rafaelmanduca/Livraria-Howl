@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\rafae\\programa\u00E7\u00E3o\\livraria-howl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\rafae\\programa\u00E7\u00E3o\\livraria-howl\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\rafae\\programa\u00E7\u00E3o\\livraria-howl\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\rafae\\programa\u00E7\u00E3o\\livraria-howl\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|c:\\users\\rafae\\programa\u00E7\u00E3o\\livraria-howl\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708B17FD-7C92-46AC-A233-A3BCFAA654E7}|ConsoleApp1.csproj|solutionrelative:cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,19 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\Livro.cs",
-              "RelativeDocumentMoniker": "Livro.cs",
-              "ToolTip": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\Livro.cs",
-              "RelativeToolTip": "Livro.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T13:32:17.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\Cliente.cs",
               "RelativeDocumentMoniker": "Cliente.cs",
@@ -54,7 +34,21 @@
               "RelativeToolTip": "Cliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T13:32:10.952Z"
+              "WhenOpened": "2024-07-19T16:08:02.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cargo.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\Cargo.cs",
+              "RelativeDocumentMoniker": "Cargo.cs",
+              "ToolTip": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\Cargo.cs",
+              "RelativeToolTip": "Cargo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T16:08:00.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,35 +58,10 @@
               "RelativeDocumentMoniker": "Funcionario.cs",
               "ToolTip": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\Funcionario.cs",
               "RelativeToolTip": "Funcionario.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAYwNcAAABKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANcAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T20:44:56.686Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAC4AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T19:25:46.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "venda.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\venda.cs",
-              "RelativeDocumentMoniker": "venda.cs",
-              "ToolTip": "C:\\Users\\rafae\\Programa\u00E7\u00E3o\\Livraria-Howl\\venda.cs",
-              "RelativeToolTip": "venda.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAgwG0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T19:11:51.437Z"
             }
           ]
         }
